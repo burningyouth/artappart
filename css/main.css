@@ -304,7 +304,7 @@ button {
 box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.13);
 border-radius: 1px;    
     font-weight: bold;
-font-size: 13px;
+font-size: 16px;
 line-height: 15px;
 text-align: center;
     transition: 0.3s;
@@ -489,7 +489,7 @@ color: #fff;}
     width: calc(100% - 125px);
     padding-left: 45px;
     font-weight: 500;
-font-size: 16px;
+font-size: 18px;
     vertical-align: middle;
 line-height: 25px;
 /* or 156% */
@@ -625,8 +625,8 @@ color: #151515;
 	box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.13);
 	border-radius: 1px;
 	font-weight: bold;
-	font-size: 12px;
-	line-height: 14px;
+	font-size: 16px;
+	line-height: 16px;
 /* identical to box height */
 	text-align: center;
 	letter-spacing: 0.1em;
@@ -737,7 +737,8 @@ font-size: 36px;
 line-height: 42px;
 
 color: #FFFFFF;
-margin-bottom: 42px;
+margin-bottom: 70px;
+margin-top: 30px;
     font-family: 'Raleway';
 }
 .ft2 {
@@ -849,7 +850,7 @@ color: #151515;
 	padding-top: 80px;
 }
 .pft1 {
-    margin-bottom: 16px;
+    margin-bottom: 80px;
     font-weight: bold;
 font-size: 38px;
 line-height: 50px;
@@ -877,7 +878,7 @@ color: #151515;
     position: relative;
     height: 450px;
     width: 635px;
-    margin-bottom: 45px;
+    margin-bottom: 70px;
 }
 .gal_img > span {
     overflow: hidden;
@@ -892,12 +893,13 @@ color: #151515;
     font-style: normal;
     font-family: 'Raleway';
     font-weight: bold;
-    font-size: 100.542px;
+    font-size: 30px;
     line-height: 1;
+    text-align: right;
     color: #FFFFFF;
     z-index: 100;
-    bottom: -42px;
-    right: 35px;
+    bottom: -40px;
+    right: 20px;
 }
 .gal_img > span > span {
     width: 100%;
@@ -908,6 +910,7 @@ color: #151515;
     background-position: center;
     transform-origin: center;
     transition: 0.3s;
+    background-size: cover;
 }
 .gal_img:hover > span > span {
     transform: scale(1.06)
@@ -1205,7 +1208,7 @@ color: #FFFFFF;
 }
 .ctt2 {
 	display: block;
-    font-family: 'Raleway';
+    font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
 font-weight: bold;
 font-size: 22px;
@@ -1827,6 +1830,11 @@ border-radius: 1px;
 }
 .messengers_wrp div:last-child {
     margin-bottom: 0;
+}
+
+/*Правки 31.08.2020*/
+.heading {
+  margin-bottom: 55px;
 }
 /*
 .fw_item.team::after {

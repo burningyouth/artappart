@@ -481,7 +481,9 @@
         height: calc(100% - 310px)
     }
     .gal_img > i {
-        font-size: 73px
+      font-size: 25px;
+      bottom: -30px;
+      right: 5px;
     }
     .step_item_wrp {
         padding: 15px;

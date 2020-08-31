@@ -1,0 +1,1 @@
+[Перейти на главную](https://burningyouth.github.io/artappart/index.html)

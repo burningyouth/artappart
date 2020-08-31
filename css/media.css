@@ -1,0 +1,552 @@
+@media screen and (max-width:1810px) {
+    .portf_wrp_section::before {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #444B53;
+    height: calc(100% - 510px);
+    content: '';
+    display: block;
+    background-repeat: no-repeat;
+    background-image: url(../img/s_ttle3.svg);
+    position: absolute;
+    background-position: calc(50% + 250px) 408px;
+    background-size: 600px;
+}
+}
+@media screen and (max-width:1510px) {
+    header ul li {
+        margin-right: 25px;
+    }
+    .line_wrp {
+        left: 60px;
+    }
+    .anchor_page {
+        left: 52px;
+    }
+    .logo_wrp {
+        left: 25px;
+        top: 30px;
+    }
+}
+@media screen and (max-width:1350px) {
+    .anchor_page {
+        display: none
+    }
+    
+}
+@media screen and (max-width:1310px) {
+    .line_wrp {
+        display: none
+    }
+    .logo_wrp {
+        display: none
+    }
+    .logo_li {
+        width: auto!important;
+        overflow: visible;
+        margin-right: 15px!important;
+    }
+    .one .fw_item::before {
+        width: 115%;
+    }
+    header .container {
+        max-width: 100%
+    }
+}
+@media screen and (max-width:1202px) {
+    header ul li a {
+        font-size: 14px;
+    }
+    header ul li {
+        margin-right: 16px;
+    }
+    header ul {
+        height: 90px;
+    }
+    .toptel_wrp {
+        top: 24px
+    }
+    body {
+        padding-top: 80px;
+    }
+    .toptel_wrp {
+        right: 22px;
+    }
+    .toptel {
+        font-size: 17px;
+    }
+}
+@media screen and (max-width:991px) {
+    .nopadl {
+        padding-left: 15px;
+    }
+    .nopadr {
+        padding-right: 15px;
+    }
+    .mobc {
+        text-align: center!important;
+    }
+    .nomob {
+        display: none
+    }
+    .onlymob {
+        display: block
+    }
+    section {
+        height: auto!important;
+        padding-top: 35px !important;
+        padding-bottom: 35px !important;
+        margin: 0!important;
+        min-height: 10px!important;
+    }
+    .row.mobowl {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .mopad0 {
+        padding: 0!important;
+    }
+    body.modal-open {
+        padding-right: 0 !important;
+    }
+    .one .fw_item {
+        min-height: 1px;
+        padding: 40px 0;
+        text-align: center;
+        width: calc(100%)!important;
+        display: block;
+    }
+    .one .fw_item::before {
+        right: -15px
+    }
+    h1 {
+    margin: 0;
+    font-weight: bold;
+    font-size: 40.5391px;
+    line-height: 63px;
+    color: #151515;
+    background: #fff;
+    display: inline;
+    white-space: pre;
+    padding: 0px 14px;
+    padding-left: 0;
+    line-height: 55px;
+    padding-bottom: 3px;
+    padding: 0;
+    background: none;
+    white-space: normal;
+    display: block;
+}
+    .one .fw_item::after {
+        content: '';
+        display: block;
+        position: absolute;
+        z-index: 10;
+        background-color: #fff;
+        opacity: .5;
+        width: 120%;
+        height: 100%;
+        top: 0;
+        right: -15px;
+    }
+    .get_proj {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    *:not(h1) {
+        line-height: 1.24!important
+    }
+    h2, .pft1, .hwt1, .abt1, .ct1 {
+        font-size: 28px;
+        text-align: center;
+    }
+    .subh2, .pft2, .hwt2 {
+        font-size: 20px;
+        text-align: center;
+        display: block;
+    }
+    br {
+        display: none
+    }
+    .we_know {
+        margin-top: 100px;
+        margin-bottom: 60px;
+    }
+    .pr_wrp {
+        text-align: center;
+    }
+    .pr_wrp p::after {
+        width: 50px!important;
+        left: calc(50% - 25px)
+    }
+    .wow {
+        visibility: visible!important;
+        animation: none!important
+    }
+    .one {
+        overflow: hidden;
+        padding: 0!important
+    }
+    .three::before {
+        display: none
+    }
+    .three::after {
+        bottom: -165px;
+    }
+    .pt1 {
+        font-size: 25px;
+    }
+    .pt2 {
+        font-size: 15px;
+    }
+    .ex_look {
+        font-size: 11px;
+    }
+    .proj_section3::after {
+        left: inherit;
+        right: 0
+    }
+    .proj_section4::after {
+        display: none
+    }
+    .ft1 {
+        font-size: 27px;
+        text-align: center;
+    }
+    form .normb {
+        margin-top: 20px;
+    }
+    .pressing {
+	margin-top: 20px;
+}
+    .portf_wrp_section::after {
+        display: none;
+    }
+    .portf_wrp_section::before {
+        background-image: none
+    }
+    .controls_car {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .controls_car:last-of-type {
+        margin: 0
+    }
+    .step_item_wrp {
+        margin-right: 0;
+    }
+    .abt2 {
+        font-size: 15px;
+    }
+    .team {
+        width: calc(100%)!important;
+        height: 400px;
+    }
+    .team::before {
+        display: none
+    }
+    .contact::before {
+        display: none
+    }
+    .contact {
+	background-image: none;
+        text-align: center;
+}
+    .gotop {
+        display: none
+    }
+    .ctt2 {
+        font-size: 19px;
+        display: block;
+        margin: 5px 0;
+    }
+    .ctt1 {
+        text-align: center;
+        display: block
+    }
+    .logo_li {
+        display: none!important
+    }
+    .toptel_wrp {
+        display: none
+    }
+    header ul {
+        height: auto!important
+    }
+    header {
+        padding: 15px 0 !important
+    }
+    header .mob_nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0!important;
+        height: auto!important
+    }
+    .mob_nav .toptel_wrp {
+	position: relative;
+        display: block;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        display: inline-block;
+        vertical-align: middle;
+        padding-left: 50px;
+}
+    .toptel img {
+        top: 2px;
+    }
+    .normal_nav {
+        position: absolute;
+    width: 100%;
+    left: 0;
+    top: 100%;
+    padding: 20px;
+    text-align: center;
+    display: none;
+    background: #fff;
+}
+    .mob_nav .logo_mob img {
+	height: 50px;
+}
+    .open_nav {
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 15px;
+    }
+    header .normal_nav li a {
+        font-size: 15px;
+    }
+    header .normal_nav li {
+        display: block;
+        margin: 14px 0
+    }
+    header .normal_nav li:first-child, header .normal_nav li:nth-child(2) {
+        margin-top: 0;
+    }
+    header .normal_nav li:last-child {
+        margin-bottom: 0;
+    }
+}
+@media screen and (max-width:767px) {
+    body {
+        padding-top: 60px;
+    }
+    h1 {
+        font-size: 24px;
+        line-height: 1.3;
+    }
+    .subh1 {
+    font-size: 14px;
+    margin: 20px auto;
+    margin-bottom: 30px;
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 280px;
+    }
+    .get_proj {
+        height: 50px;
+    }
+    h2, .pft1, .hwt1, .abt1, .ct1 {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px!important;
+}
+    .subh2, .pft2, .hwt2 {
+    font-size: 16px;
+    text-align: center;
+    display: block;
+    margin-bottom: 35px!important;
+}
+    .pr_wrp p {
+        font-size: 20px;
+    }
+    .pr_wrp span {
+        font-size: 14px;
+    }
+    .pr_wrp p::after {
+        bottom: -16px;
+    }
+    .we_know {
+    margin-top: 30px;
+    margin-bottom: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 15px;
+}
+    .we_know::before {
+	display: none
+}
+    .flat_type_wrp {
+        margin-bottom: 20px;
+    }
+    .flat_type_wrp div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    vertical-align: middle;
+    height: 70px;
+    background-color: #fff;
+    transition: 0.3s;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 15px;
+}
+    .flat_type_wrp span {
+        display: inline-block;
+    }
+    .more_about {
+        font-size: 14px;
+    }
+    .three {
+        text-align: center;
+    }
+    .pt1 {
+    font-size: 22px;
+    text-align: center;
+}
+    .pt2 {
+        text-align: center;
+    }
+    .proj_section1, .proj_section2,.proj_section3, .proj_section4 {
+	text-align: center
+}
+    .pt_list li {
+        text-align: left
+    }
+    .proj_buts {
+        display: block;
+        margin: 0;
+    }
+    .proj_buts button, .ex_look {
+        width: 100%!Important;
+        height: 50px !important;
+        margin: 0!important;
+        margin-bottom: 10px !important;
+        font-size: 14px!important
+    }
+    .pt_list li {
+        font-size: 15px;
+    }
+    .proj_buts button:last-child {
+        margin-bottom: 0 !important;
+    }
+    .flat_type_wrp p {
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 0;
+    width: 100%;
+    padding-left: 0;
+    font-weight: 500;
+    font-size: 16px;
+    vertical-align: middle;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+}
+    .flat_type_wrp div img {
+        width: 40px;
+    }
+    .proj_section3::after {
+        display: none
+    }
+    .proj_section3 {
+	background: #444b53
+}
+    .ft1 {
+    font-size: 20px;
+    text-align: center;
+}
+    .ft2 {
+        font-size: 16px;
+        padding-left: 20px;
+        margin-bottom: 30px;
+    }
+    .form_main_wrp{ 
+    padding: 20px;}
+    .pressing {
+        font-size: 13px;
+    }
+    .gal_img {
+        height: 270px;
+        width: 240px;
+    }
+    .portf_wrp_section::before {
+        height: calc(100% - 310px)
+    }
+    .gal_img > i {
+        font-size: 73px
+    }
+    .step_item_wrp {
+        padding: 15px;
+        width: 240px;
+    }
+    .abt2 {
+    font-size: 14px;
+    padding-left: 20px;
+    margin-bottom: 35px;
+}
+    .team {
+    width: calc(100%)!important;
+    height: 50vw;
+}
+    .contact .flex .col-md-3 {
+        padding: 25px 0
+    }
+    .foot_ul {
+        text-align: center;
+        display: block;
+    }
+    .foot_ul > li {
+        margin-bottom: 20px;
+    }
+    .foot_ul > li:last-child {
+        margin-bottom: 0;
+    }
+    .soc_list {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .toptel img {
+        display: none
+    }
+    .mob_nav .toptel_wrp {
+        padding-left: 5px;
+    }
+    header {
+        padding: 6px 0!important
+    }
+    .toptel_wrp {
+        text-align: center;
+    }
+    .messengers {
+        text-align: center;
+    }
+    .mod_header {padding: 30px;}
+    .mt1 {
+        font-size: 22px;
+    }
+    .mt2 {
+        font-size: 16px;
+    }
+    .mod_body {
+        padding: 30px!important;
+    }
+    .modal-dialog {
+        margin: 0;
+        padding: 10px;
+    }
+    .thanks_modal .modal_wrp {
+        padding: 30px;
+    }
+    .messengers_wrp {
+        padding: 16px 0;
+        padding-bottom: 4px;
+    }
+}

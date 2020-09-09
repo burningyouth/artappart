@@ -240,7 +240,7 @@ header ul li.active a::after {
   width: calc(100% - 95px);
   background-position: center;
   background-size: cover;
-  background-image: url(../img/bg1.jpg);
+  background-image: url(../img/galery/uralskaya/1.jpg);
   top: 0;
   z-index: 0;
   box-shadow: 19.4792px 34.0885px 80px rgba(0, 0, 0, 0.15);

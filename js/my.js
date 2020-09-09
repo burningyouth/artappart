@@ -14,9 +14,11 @@ $(window).on("load resize", function() {
   var c_width = $(".one .container").outerWidth() - 30;
   $(".fw_item").css("width", "calc(100% + " + (pagew - c_width) / 2 + "px)");
 });
-function loadProjectGallery(parent, project, count){
-  for(let i = 2; i<=count; i++){
-    let $a = $(`<a data-fancybox="${project}" href="img/galery/${project}/${i}.jpg" style="display: none;"/>`)
+function loadProjectGallery(parent, project, count) {
+  for (let i = 2; i <= count; i++) {
+    let $a = $(
+      `<a data-fancybox="${project}" href="img/galery/${project}/${i}.jpg" style="display: none;"/>`
+    );
     $a.appendTo(parent);
   }
 }
@@ -39,18 +41,18 @@ $(window).on("load scroll", function() {
   }
 });
 $(document).ready(function() {
-  loadProjectGallery('#nemo', 'capitan-nemo', 37);
-  loadProjectGallery('#lenynsky', 'lenynsky', 46);
-  loadProjectGallery('#moscow', 'moscow', 37);
-  loadProjectGallery('#premier-palas', 'premier-palas', 39);
-  loadProjectGallery('#kudrovo', 'kudrovo', 31);
-  loadProjectGallery('#ohta', 'ohta', 21);
-  loadProjectGallery('#parnas', 'parnas', 48);
-  loadProjectGallery('#uralskaya', 'uralskaya', 23);
-  loadProjectGallery('#small', 'small', 14);
-  loadProjectGallery('#warm', 'warm', 22);
+  loadProjectGallery("#nemo", "capitan-nemo", 37);
+  loadProjectGallery("#lenynsky", "lenynsky", 46);
+  loadProjectGallery("#moscow", "moscow", 37);
+  loadProjectGallery("#premier-palas", "premier-palas", 39);
+  loadProjectGallery("#kudrovo", "kudrovo", 31);
+  loadProjectGallery("#ohta", "ohta", 21);
+  loadProjectGallery("#parnas", "parnas", 48);
+  loadProjectGallery("#uralskaya", "uralskaya", 23);
+  loadProjectGallery("#small", "small", 14);
+  loadProjectGallery("#warm", "warm", 22);
   var textArray = [
-    "Каждый проект – авторский",
+    "Каждый проект неповторим",
     "Творческий подход к решению технических заданий",
     "Поэтапная оплата удобным способом",
     "Авторский надзор",

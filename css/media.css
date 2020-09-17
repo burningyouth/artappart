@@ -395,7 +395,8 @@
     margin-bottom: 15px;
   }
   .flat_type_wrp span {
-    display: inline-block;
+    display: block;
+    padding: 6px;
   }
   .more_about {
     font-size: 14px;
@@ -415,6 +416,7 @@
   .proj_section3,
   .proj_section4 {
     text-align: center;
+    background: none;
   }
   .pt_list li {
     text-align: left;
@@ -425,7 +427,7 @@
   }
   .proj_buts button,
   .ex_look {
-    width: 100%!Important;
+    width: 100% !important;
     height: 50px !important;
     margin: 0 !important;
     margin-bottom: 10px !important;

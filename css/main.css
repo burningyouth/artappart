@@ -444,18 +444,7 @@ h2.wt {
   max-width: 650px;
   width: 100%;
 }
-.three::after {
-  content: "";
-  display: block;
-  position: absolute;
-  background-image: url(../img/letter1.png);
-  width: 296px;
-  height: 331px;
-  animation: float 5s ease-in-out infinite;
-  bottom: -31px;
-  right: calc(50% - 461px);
-  z-index: 100;
-}
+
 .flat_type_wrp {
   margin-bottom: 45px;
 }
@@ -497,7 +486,6 @@ h2.wt {
 }
 .flat_type_wrp span {
   background: rgba(21, 21, 21, 0.8);
-  padding: 0 6px;
 }
 .more_about {
   margin-bottom: 0;
@@ -511,15 +499,13 @@ h2.wt {
   color: #ffffff;
 
   font-family: "Raleway";
-  border-bottom: 2px solid #fff;
   display: inline-block;
   padding-bottom: 6px;
   margin-top: 60px;
+  background: rgba(21, 21, 21, 0.8);
+  padding: 0 6px;
 }
-.more_about:hover {
-  color: rgba(21, 21, 21, 1);
-  border-color: rgba(21, 21, 21, 1);
-}
+
 @keyframes float {
   0% {
     transform: translatey(0px);
@@ -535,7 +521,7 @@ h2.wt {
   padding-top: 140px;
   padding-bottom: 125px;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: 30% center;
   background-image: url(../img/proj1.jpg);
 }
 .pt1 {
@@ -578,7 +564,7 @@ h2.wt {
 }
 .pt_list li {
   position: relative;
-  font-weight: normal;
+  font-weight: bold;
   font-size: 16px;
   line-height: 22px;
   /* or 137% */
@@ -613,7 +599,6 @@ h2.wt {
 }
 .proj_buts {
   display: flex;
-  max-width: 520px;
   margin: 0 -6px;
 }
 .normb {
@@ -640,7 +625,6 @@ h2.wt {
 }
 .ex_look {
   height: 65px;
-  border: 1px solid #454545;
   box-sizing: border-box;
   border-radius: 1px;
   font-weight: bold;
@@ -650,9 +634,10 @@ h2.wt {
   text-align: center;
   letter-spacing: 0.1em;
   text-transform: uppercase;
+  background-color: #454545;
 
   /* Font_big */
-  color: #151515;
+  color: #fff;
   width: 55%;
   margin-left: 6px;
   display: flex;
@@ -660,10 +645,7 @@ h2.wt {
   justify-content: center;
   transition: 0.3s;
 }
-.ex_look:hover {
-  background-color: #454545;
-  color: #fff;
-}
+
 .proj_section2 {
   background-position: center;
   background-size: cover;
@@ -716,9 +698,9 @@ h2.wt {
   bottom: -164px;
 }
 .proj_section4 {
-  background-position: center;
+  background-position: 30% center;
   background-size: cover;
-  background-image: url(../img/proj4.png);
+  background-image: url(../img/proj2.jpg);
   padding-top: 85px;
   padding-bottom: 100px;
   position: relative;
@@ -738,6 +720,10 @@ h2.wt {
   margin-bottom: 70px;
   margin-top: 30px;
   font-family: "Raleway";
+}
+.ft1 span {
+  background: rgba(21, 21, 21, 0.8);
+  padding: 0 6px;
 }
 .ft2 {
   margin-bottom: 45px;
@@ -926,9 +912,6 @@ form .normb {
 .portf_wrp_section {
   position: relative;
   padding-bottom: 60px;
-  background-repeat: no-repeat;
-  background-image: url(../img/s_ttle2.svg);
-  background-position: calc(50% - 500px) 231px;
 }
 .portf_wrp_section .container {
   position: relative;
@@ -1107,17 +1090,7 @@ form .normb {
 .proj_section4 {
   position: relative;
 }
-.proj_section4::after {
-  content: "";
-  display: block;
-  position: absolute;
-  background-image: url(../img/letter3.png);
-  width: 268px;
-  height: 287px;
-  animation: float 5s ease-in-out infinite;
-  bottom: -173px;
-  right: 44px;
-}
+
 .about_section {
   padding-top: 75px;
   padding-bottom: 190px;
@@ -1137,12 +1110,12 @@ form .normb {
   margin-bottom: 60px;
   font-style: normal;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 21px;
   line-height: 30px;
   /* or 167% */
   font-family: "Raleway";
   color: #000000;
-  padding-left: 45px;
+  padding-left: 35px;
   border-left: 2px solid #89b9cb;
   max-width: 846px;
 }
@@ -1168,23 +1141,10 @@ form .normb {
   background-color: #89b9cb;
   padding-top: 70px;
   padding-bottom: 80px;
-  background-repeat: no-repeat;
-  background-image: url(../img/foot_bg.svg);
-  background-position: right center;
   position: relative;
   z-index: 100;
 }
-.contact::before {
-  content: "";
-  display: block;
-  position: absolute;
-  background-image: url(../img/letter4.png);
-  width: 319px;
-  height: 329px;
-  animation: float 5s ease-in-out infinite;
-  top: -136px;
-  right: 230px;
-}
+
 .ct1 {
   font-weight: bold;
   font-size: 44px;

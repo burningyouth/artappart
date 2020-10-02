@@ -240,7 +240,7 @@ header ul li.active a::after {
   width: calc(100% - 95px);
   background-position: center;
   background-size: cover;
-  background-image: url(../img/galery/uralskaya/1.jpg);
+  background-image: url(../img/header.jpg);
   top: 0;
   z-index: 0;
   box-shadow: 19.4792px 34.0885px 80px rgba(0, 0, 0, 0.15);
@@ -508,13 +508,13 @@ h2.wt {
 
 @keyframes float {
   0% {
-    transform: translatey(0px);
+    transform: translateY(0px);
   }
   50% {
-    transform: translatey(-20px);
+    transform: translateY(-20px);
   }
   100% {
-    transform: translatey(0px);
+    transform: translateY(0px);
   }
 }
 .proj_section1 {
@@ -522,7 +522,18 @@ h2.wt {
   padding-bottom: 125px;
   background-repeat: no-repeat;
   background-position: 30% center;
-  background-image: url(../img/proj1.jpg);
+  background-size: cover;
+  background-image: url(../img/kolazhi.jpg);
+}
+.proj_section2 {
+  background-repeat: no-repeat;
+  background-position: 7% center;
+  background-size: cover;
+  background-image: url(../img/visualization.jpg);
+  padding-top: 85px;
+  padding-bottom: 100px;
+  position: relative;
+  z-index: 10;
 }
 .pt1 {
   font-family: "Raleway";
@@ -645,15 +656,6 @@ h2.wt {
   justify-content: center;
   transition: 0.3s;
 }
-
-.proj_section2 {
-  background-position: center;
-  background-size: cover;
-  background-image: url(../img/proj2.jpg);
-  padding-top: 75px;
-  padding-bottom: 100px;
-  position: relative;
-}
 .pt_list li.more {
   font-weight: bold;
 
@@ -697,15 +699,7 @@ h2.wt {
   animation: float 5s ease-in-out infinite;
   bottom: -164px;
 }
-.proj_section4 {
-  background-position: 30% center;
-  background-size: cover;
-  background-image: url(../img/proj2.jpg);
-  padding-top: 85px;
-  padding-bottom: 100px;
-  position: relative;
-  z-index: 10;
-}
+
 .form_main_section {
   position: relative;
   padding-top: 75px;

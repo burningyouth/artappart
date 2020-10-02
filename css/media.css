@@ -59,6 +59,12 @@
   .toptel {
     font-size: 17px;
   }
+  .proj_section1 {
+    background-position: 38% center;
+  }
+  .proj_section2 {
+    background-position: 30% center;
+  }
 }
 @media screen and (max-width: 991px) {
   .nopadl {
@@ -319,6 +325,12 @@
   }
   header .normal_nav li:last-child {
     margin-bottom: 0;
+  }
+  .proj_section1 {
+    background-position: 23% center;
+  }
+  .proj_section2 {
+    background-position: 23% center;
   }
 }
 @media screen and (max-width: 767px) {
